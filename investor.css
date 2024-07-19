@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background: rgb(226, 55, 68);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    color: white;
+    padding: 20px;
+}
+
+.nav {
+    position: absolute;
+    left: 250px;
+    display: flex;
+    gap: 70px;
+    font-size: 24px;
+}
+
+.nav ul {
+    display: grid;
+    gap: 30px;
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* header */
+.header {
+    height: 100vh;
+    width: 100%;
+    background: rgb(226, 55, 68);
+    padding: 20px;
+}
+
+.header .first-header {
+    position: absolute;
+    left: 150px;
+    top: 280px;
+    display: grid;
+    gap: 32px;
+}
+
+.first-header .firstheader {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    color: white;
+}
+
+.first-header .header-flex {
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.first-header .headerflex {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.firstheader .firstdiv {
+    font-size: 40px;
+}
+
+.firstheader img {
+    width: 200px;
+}
+
+.second-header .cursor{
+    cursor: pointer;
+}
+.second-header a{
+    text-decoration: none;
+    color: black;
+}
+
+.second-header {
+    height: 80vh;
+    width: 30%;
+    background-color: white;
+    margin-left: 1000px;
+    /* position: relative; */
+    /* right: -970px; */
+    top: 20px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.second-box .same {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.second-flex{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+.second-flex a{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(239, 79, 95);
+}
+.presentation{
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+}
+.presentation .pres-img{
+    background-color: rgb(250, 232, 235);
+    border-radius: 20px;
+    padding: 20px;
+}
+.presentation .pres-flex{
+    display:flex;
+    height: 80px;
+    font-size: 30px;
+    gap: 100px;
+    padding-top: 40px;
+}
+
+
+
+/*  Our core offerings*/
+
+.off-container {
+    height: 209vh;
+    width: 100%;
+    background: linear-gradient(rgba(248, 249, 252, 0) 0%, rgb(248, 249, 252) 100%);
+    padding: 20px;
+
+}
+
+.oco {
+    margin-left: 230px;
+    /* position: relative; */
+    /* right: -230px; */
+
+}
+
+.oco .off-title {
+    font-size: 60px;
+}
+
+.fqhg {
+    position: relative;
+    top: 20px;
+}
+
+.fqhg .food {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    width: 30%;
+    height: 40vh;
+    box-sizing: content-box;
+}
+
+.food .width {
+    width: 60%;
+    font-size: 25px;
+}
+
+.food .h2img {
+    display: flex;
+}
+
+
+.food img {
+    width: 90px;
+}
+
+.fqhg .first-div {
+    display: flex;
+    gap: 30px;
+
+}
+
+.fqhg .second-div {
+    display: flex;
+    gap: 30px;
+}
+
+.food .food-flex {
+    display: flex;
+    gap: 60px;
+
+}
+
+.food .pwidth {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(118, 124, 143);
+    height: 8em;
+    width: 75%;
+}
+
+.food-flex .left div {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(28, 28, 28);
+}
+
+.food-flex .left p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(118, 124, 143);
+
+}
+
+.food-flex .right div {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(28, 28, 28);
+
+}
+
+.food-flex .right p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(118, 124, 143);
+}
+
+.h2img h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(175, 180, 192);
+}
+
+
+/* Beyond business */
+
+.box-beyond {
+    position: relative;
+    top: 60px;
+
+}
+
+.beyond div {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 40px;
+    color: rgb(28, 28, 28);
+
+}
+
+.beyond p {
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 2rem;
+    color: rgb(118, 124, 143);
+
+}
+
+.beyond-box {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    /* width: 20%; */
+    height: 45vh;
+    box-sizing: content-box;
+    margin-top: 30px;
+
+}
+
+.beyond-box p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(118, 124, 143);
+    font-size: 22px;
+}
+
+
+.container-beyond {
+    display: flex;
+    gap: 20px;
+}
+
+.beyond-box .h3feeding {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.container-beyond img {
+    width: 375px;
+    height: 50%;
+
+}
+
+.beyond-btn {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(239, 79, 95);
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+/*  corporate  */
+.corporate {
+    height: 80vh;
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 200px;
+    /* position: relative; */
+    /* right: -220px; */
+    top: 20px;
+}
+
+.corporate-box {
+    display: grid;
+    gap: 50px;
+}
+
+.corporate-box .zomcla {
+    display: grid;
+    gap: 20px;
+}
+
+.corporate a {
+    color: red;
+}
+
+.corporate .cor-button {
+    width: 30%;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+
+
+/* blogs */
+.blog {
+    height: 90vh;
+    background-color: #F8F8F8;
+    padding-top: 10px;
+}
+.blog-cover{
+    width: 80%;
+    position: relative;
+    left: 160px;
+}
+.blog-cover h1{
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.blog-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 35px;
+}
+
+.blog-card-image {
+    line-height: 1.2rem;
+   /* width: 80%; */
+}
+
+.blog-card-image h3{
+    margin-top: 25px;
+}
+
+.blog-card-image p{
+    margin-top: 20px;
+}
+
+.blog-card-image img {
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.blog-card .blog-card-image {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.blog-card img .hover {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.blog-card .hover:hover {
+    transform: scale(1.05);
+}
+
+.blog-card .blog-btn {
+    width: 50%;
+    border-radius: 15px;
+    font-size: 20px;
+    padding:20px;
+    background-color: rgb(209, 33, 33);
+    color: white;
+    margin-top: 70px;
+}
+
+
+
+/* Subscribe */
+.Subscribe {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 3.5rem;
+    position: relative;
+    top: 20px;
+}
+
+.Subscribe .email-left {
+    margin-left: 60px;
+}
+
+.Subscribe .link-right {
+    margin-left: 60px;
+}
+
+.link-right .ahref {
+    display: inline;
+    color: rgb(239, 79, 95);
+    text-decoration: none;
+}
+
+.input {
+    height: 100%;
+    width: 100px;
+    font-size: 20px;
+    transition: 0.1s ease;
+    z-index: 1111;
+
+}
+
+.input:focus+.placeholder {
+    position: absolute;
+    font-size: 1.6rem;
+    color: white;
+
+}
+
+.Subscribe .btn {
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(242, 38, 38);
+    color: white;
+}
+
+
+
+
+
+
+/* footer */
+
+.container-footer{
+    width: 70%;
+    margin-left: 200px;
+	/* position: relative; */
+	/* right: -100px; */
+}
+
+
+.footer-bar {
+	background-color: #F8F8F8;
+	padding-top: 50px;
+}
+
+.footer-bar .footer-lang {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	padding: 20px;
+	column-gap: 670px;
+}
+
+.footer-bar .footer-lang img.footer-logo {
+	height: 28px;
+}
+
+.footer-bar .footer-lang a.lang-btn {
+	text-decoration: none;
+	font-size: 16px;
+	color: #1c1c1c;
+	padding: 8px 5px;
+	border: 1px solid #b5b5b5;
+	border-radius: 8px;
+	margin-right: 15px;
+}
+
+.footer-bar .footer-last-links {
+	display: inline-flex;
+	gap: 70px;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.footer-bar .footer-last-links ul li {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+.footer-bar .footer-last-links h4.footer-list-title {
+	margin-bottom: 10px;
+	letter-spacing: 0.2rem;
+	font-size: 23px;
+}
+
+.footer-bar .footer-last-links ul li a {
+	text-decoration: none;
+	color: #696969;
+	font-size: 20px;
+}
+
+.footer-bar .footer-last-links ul li a:hover {
+	color: #1c1c1c;
+}
+
+.footer-bar .footer-last-links .footer-social-icons {
+	margin-bottom: 20px;
+}
+
+.footer-bar .footer-last-links .footer-social-icons a {
+	color: #1c1c1c;
+}
+
+.footer-bar .footer-last-links .footer-social-icons .fa-facebook,
+.footer-bar .footer-last-links .footer-social-icons .fa-twitter,
+.footer-bar .footer-last-links .footer-social-icons .fa-instagram {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.footer-bar .footer-copyright {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	/* border-top: 1px solid #cfcfcf; */
+}
+
+.footer-bar hr{
+	width: 1000px;
+}
